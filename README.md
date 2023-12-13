@@ -17,4 +17,4 @@ To pull this project down:
 
 ## Rive File
 
-You can find the Rive asset used in this project in the Rive Community.
+You can find the Rive asset used in this project in the Rive Community: https://rive.app/community/7106-13622-cat-wall/
