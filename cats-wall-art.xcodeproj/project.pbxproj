@@ -11,6 +11,16 @@
 		E5B5C2442B276685006E57C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B5C2432B276685006E57C8 /* ContentView.swift */; };
 		E5B5C2462B276687006E57C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B5C2452B276687006E57C8 /* Assets.xcassets */; };
 		E5B5C2492B276687006E57C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B5C2482B276687006E57C8 /* Preview Assets.xcassets */; };
+		E5B5C2512B2766CC006E57C8 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = E5B5C2502B2766CC006E57C8 /* RiveRuntime */; };
+		E5B5C2532B276749006E57C8 /* RiveWallArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B5C2522B276749006E57C8 /* RiveWallArt.swift */; };
+		E5B5C2562B2768A9006E57C8 /* picture_frame_update_v4.riv in Resources */ = {isa = PBXBuildFile; fileRef = E5B5C2552B2768A9006E57C8 /* picture_frame_update_v4.riv */; };
+		E5B5C2592B2768C0006E57C8 /* cat-994546.webp in Resources */ = {isa = PBXBuildFile; fileRef = E5B5C2582B2768C0006E57C8 /* cat-994546.webp */; };
+		E5B5C2612B2768E4006E57C8 /* cat3.webp in Resources */ = {isa = PBXBuildFile; fileRef = E5B5C25A2B2768E4006E57C8 /* cat3.webp */; };
+		E5B5C2622B2768E4006E57C8 /* cat1.webp in Resources */ = {isa = PBXBuildFile; fileRef = E5B5C25B2B2768E4006E57C8 /* cat1.webp */; };
+		E5B5C2632B2768E4006E57C8 /* cat4.webp in Resources */ = {isa = PBXBuildFile; fileRef = E5B5C25C2B2768E4006E57C8 /* cat4.webp */; };
+		E5B5C2642B2768E4006E57C8 /* cat0.webp in Resources */ = {isa = PBXBuildFile; fileRef = E5B5C25D2B2768E4006E57C8 /* cat0.webp */; };
+		E5B5C2652B2768E4006E57C8 /* cat5.webp in Resources */ = {isa = PBXBuildFile; fileRef = E5B5C25E2B2768E4006E57C8 /* cat5.webp */; };
+		E5B5C2662B2768E4006E57C8 /* cat2.webp in Resources */ = {isa = PBXBuildFile; fileRef = E5B5C25F2B2768E4006E57C8 /* cat2.webp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,15 @@
 		E5B5C2432B276685006E57C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5B5C2452B276687006E57C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5B5C2482B276687006E57C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5B5C2522B276749006E57C8 /* RiveWallArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiveWallArt.swift; sourceTree = "<group>"; };
+		E5B5C2552B2768A9006E57C8 /* picture_frame_update_v4.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = picture_frame_update_v4.riv; sourceTree = "<group>"; };
+		E5B5C2582B2768C0006E57C8 /* cat-994546.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cat-994546.webp"; sourceTree = "<group>"; };
+		E5B5C25A2B2768E4006E57C8 /* cat3.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat3.webp; sourceTree = "<group>"; };
+		E5B5C25B2B2768E4006E57C8 /* cat1.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat1.webp; sourceTree = "<group>"; };
+		E5B5C25C2B2768E4006E57C8 /* cat4.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat4.webp; sourceTree = "<group>"; };
+		E5B5C25D2B2768E4006E57C8 /* cat0.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat0.webp; sourceTree = "<group>"; };
+		E5B5C25E2B2768E4006E57C8 /* cat5.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat5.webp; sourceTree = "<group>"; };
+		E5B5C25F2B2768E4006E57C8 /* cat2.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat2.webp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B5C2512B2766CC006E57C8 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +71,13 @@
 		E5B5C2402B276685006E57C8 /* cats-wall-art */ = {
 			isa = PBXGroup;
 			children = (
+				E5B5C2572B2768B3006E57C8 /* cats */,
+				E5B5C2542B276763006E57C8 /* rivs */,
 				E5B5C2412B276685006E57C8 /* cats_wall_artApp.swift */,
 				E5B5C2432B276685006E57C8 /* ContentView.swift */,
 				E5B5C2452B276687006E57C8 /* Assets.xcassets */,
 				E5B5C2472B276687006E57C8 /* Preview Content */,
+				E5B5C2522B276749006E57C8 /* RiveWallArt.swift */,
 			);
 			path = "cats-wall-art";
 			sourceTree = "<group>";
@@ -65,6 +88,28 @@
 				E5B5C2482B276687006E57C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5B5C2542B276763006E57C8 /* rivs */ = {
+			isa = PBXGroup;
+			children = (
+				E5B5C2552B2768A9006E57C8 /* picture_frame_update_v4.riv */,
+			);
+			path = rivs;
+			sourceTree = "<group>";
+		};
+		E5B5C2572B2768B3006E57C8 /* cats */ = {
+			isa = PBXGroup;
+			children = (
+				E5B5C25D2B2768E4006E57C8 /* cat0.webp */,
+				E5B5C25B2B2768E4006E57C8 /* cat1.webp */,
+				E5B5C25F2B2768E4006E57C8 /* cat2.webp */,
+				E5B5C25A2B2768E4006E57C8 /* cat3.webp */,
+				E5B5C25C2B2768E4006E57C8 /* cat4.webp */,
+				E5B5C25E2B2768E4006E57C8 /* cat5.webp */,
+				E5B5C2582B2768C0006E57C8 /* cat-994546.webp */,
+			);
+			path = cats;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +128,9 @@
 			dependencies = (
 			);
 			name = "cats-wall-art";
+			packageProductDependencies = (
+				E5B5C2502B2766CC006E57C8 /* RiveRuntime */,
+			);
 			productName = "cats-wall-art";
 			productReference = E5B5C23E2B276685006E57C8 /* cats-wall-art.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +159,9 @@
 				Base,
 			);
 			mainGroup = E5B5C2352B276685006E57C8;
+			packageReferences = (
+				E5B5C24F2B2766CC006E57C8 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = E5B5C23F2B276685006E57C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +176,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B5C2622B2768E4006E57C8 /* cat1.webp in Resources */,
+				E5B5C2662B2768E4006E57C8 /* cat2.webp in Resources */,
+				E5B5C2652B2768E4006E57C8 /* cat5.webp in Resources */,
+				E5B5C2632B2768E4006E57C8 /* cat4.webp in Resources */,
 				E5B5C2492B276687006E57C8 /* Preview Assets.xcassets in Resources */,
+				E5B5C2592B2768C0006E57C8 /* cat-994546.webp in Resources */,
+				E5B5C2642B2768E4006E57C8 /* cat0.webp in Resources */,
+				E5B5C2612B2768E4006E57C8 /* cat3.webp in Resources */,
 				E5B5C2462B276687006E57C8 /* Assets.xcassets in Resources */,
+				E5B5C2562B2768A9006E57C8 /* picture_frame_update_v4.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5B5C2442B276685006E57C8 /* ContentView.swift in Sources */,
+				E5B5C2532B276749006E57C8 /* RiveWallArt.swift in Sources */,
 				E5B5C2422B276685006E57C8 /* cats_wall_artApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -280,6 +340,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +370,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +406,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E5B5C24F2B2766CC006E57C8 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E5B5C2502B2766CC006E57C8 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E5B5C24F2B2766CC006E57C8 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E5B5C2362B276685006E57C8 /* Project object */;
 }
