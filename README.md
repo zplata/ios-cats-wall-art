@@ -1,5 +1,7 @@
 # Cats Wall Art
 
+![](https://github.com/zplata/ios-cats-wall-art/assets/5685058/30fa5c6c-ad5d-47a0-abc7-5e8f5e81ebb0)
+
 A small SwiftUI project using the Rive iOS runtime to showcase [dynamically loading](https://help.rive.app/runtimes/loading-assets) in cat images within Rive graphics. In this example, we load in dynamic cat images (from our main bundle) within animated picture frames on a "wall"/screen. It links swipe gestures to state machine inputs and uses [Rive Events](https://help.rive.app/runtimes/rive-events) to trigger swapping out of image assets dynamically, while caching previous image results.
 
 ## Local Setup
